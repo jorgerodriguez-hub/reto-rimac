@@ -1,4 +1,4 @@
-import Return from '../assets/img/icon-return-mobile.svg';
+import Return from '../../assets/img/icon-return-mobile.svg';
 import { useHistory } from "react-router-dom";
 
 export const StepBar = () => {

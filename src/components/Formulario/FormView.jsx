@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { toast } from 'react-toastify';
 import { useHistory } from "react-router-dom";
-import Family from '../assets/img/img-family.png';
+import Family from '../../assets/img/img-family.png';
 
 export const FormView = () => {
 

@@ -1,4 +1,4 @@
-import './App.css';
+import './assets/scss/style.scss';
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';

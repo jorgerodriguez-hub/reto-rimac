@@ -1,5 +1,5 @@
-import Icon from '../assets/img/icon-phone.svg';
-import Logo from '../assets/img/logo.svg';
+import Icon from '../../assets/img/icon-phone.svg';
+import Logo from '../../assets/img/logo.svg';
 
 export const NavBar = () => {
     return (

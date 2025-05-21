@@ -1,10 +1,10 @@
-import Return from '../assets/img/icon-return.svg';
-import Protection from '../assets/img/icon-protection.svg';
-import AddUser from '../assets/img/icon-adduser.svg';
+import Return from '../../assets/img/icon-return.svg';
+import Protection from '../../assets/img/icon-protection.svg';
+import AddUser from '../../assets/img/icon-adduser.svg';
 import { useHistory } from "react-router-dom";
 import { useState } from 'react';
-import { PlanOne } from './PlanOne';
-import { PlanTwo } from './PlanTwo';
+import { PlanOne } from '../Planes/PlanOne';
+import { PlanTwo } from '../Planes/PlanTwo';
 
 export const TabView = () => {
 

@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import IconHome from '../assets/img/icon-home.svg';
-import IconHospital from '../assets/img/icon-hospital.svg';
-import IconLeft from '../assets/img/icon-left.svg';
-import IconRight from '../assets/img/icon-right.svg';
+import IconHome from '../../assets/img/icon-home.svg';
+import IconHospital from '../../assets/img/icon-hospital.svg';
+import IconLeft from '../../assets/img/icon-left.svg';
+import IconRight from '../../assets/img/icon-right.svg';
 import { toast } from 'react-toastify';
 
-export const PlanTwo = () => {
+export const PlanOne = () => {
 
     const [numberPlan, setNumberPlan] = useState(1);
 
@@ -27,7 +27,7 @@ export const PlanTwo = () => {
 
     return (
         <>
-            <div className="plan-block-two">
+            <div className="plan-block-one">
                 <div className="container-plan">
                     <ul className="grid">
                         <li className="card">
@@ -35,8 +35,7 @@ export const PlanTwo = () => {
                                 <p className="title-card">Plan en Casa</p>
                                 <img src={IconHome} className="img-fluid" />
                                 <p className="title-cost">COSTO DE PLAN</p>
-                                <p className="old-cost">$39 antes</p>
-                                <p className="new-cost">$37.05 al mes</p>
+                                <p className="new-cost">$39 al mes</p>
                                 <hr />
                                 <ul>
                                     <li><strong>Médico general a domicilio</strong> <br />por S/20 y medicinas <br />cubiertas al 100%.</li>
@@ -51,8 +50,7 @@ export const PlanTwo = () => {
                                 <p className="title-card">Plan en Casa y <br />Clínica</p>
                                 <img src={IconHospital} className="img-fluid" />
                                 <p className="title-cost">COSTO DE PLAN</p>
-                                <p className="old-cost">$99 antes</p>
-                                <p className="new-cost">$94.05 al mes</p>
+                                <p className="new-cost">$99 al mes</p>
                                 <hr />
                                 <ul>
                                     <li><strong>Consultas en clínica</strong> para <br />cualquier especialidad.</li>
@@ -67,8 +65,7 @@ export const PlanTwo = () => {
                                 <p className="title-card">Plan en Casa <br />+ Chequeo</p>
                                 <img src={IconHome} className="img-fluid" />
                                 <p className="title-cost">COSTO DE PLAN</p>
-                                <p className="old-cost">$49 antes</p>
-                                <p className="new-cost">$46.55 al mes</p>
+                                <p className="new-cost">$49 al mes</p>
                                 <hr />
                                 <ul>
                                     <li><strong>Un Chequeo preventivo <br />general </strong>de manera <br />presencial o virtual.</li>
@@ -81,7 +78,7 @@ export const PlanTwo = () => {
                     </ul>
                 </div>
             </div>
-            <div className="plan-block-two-mobile">
+            <div className="plan-block-one-mobile">
                 <div className="container-plan">
                     <ul className="grid">
                         {numberPlan === 1 &&
@@ -90,8 +87,7 @@ export const PlanTwo = () => {
                                     <p className="title-card">Plan en Casa</p>
                                     <img src={IconHome} className="img-fluid" />
                                     <p className="title-cost">COSTO DE PLAN</p>
-                                    <p className="old-cost">$39 antes</p>
-                                    <p className="new-cost">$37.05 al mes</p>
+                                    <p className="new-cost">$39 al mes</p>
                                     <hr />
                                     <ul>
                                         <li><strong>Médico general a domicilio</strong> <br />por S/20 y medicinas <br />cubiertas al 100%.</li>
@@ -108,8 +104,7 @@ export const PlanTwo = () => {
                                     <p className="title-card">Plan en Casa y <br />Clínica</p>
                                     <img src={IconHospital} className="img-fluid" />
                                     <p className="title-cost">COSTO DE PLAN</p>
-                                    <p className="old-cost">$99 antes</p>
-                                    <p className="new-cost">$94.05 al mes</p>
+                                    <p className="new-cost">$99 al mes</p>
                                     <hr />
                                     <ul>
                                         <li><strong>Consultas en clínica</strong> para <br />cualquier especialidad.</li>
@@ -126,8 +121,7 @@ export const PlanTwo = () => {
                                     <p className="title-card">Plan en Casa <br />+ Chequeo</p>
                                     <img src={IconHome} className="img-fluid" />
                                     <p className="title-cost">COSTO DE PLAN</p>
-                                    <p className="old-cost">$49 antes</p>
-                                    <p className="new-cost">$46.55 al mes</p>
+                                    <p className="new-cost">$49 al mes</p>
                                     <hr />
                                     <ul>
                                         <li><strong>Un Chequeo preventivo <br />general </strong>de manera <br />presencial o virtual.</li>

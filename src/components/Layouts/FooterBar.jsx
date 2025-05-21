@@ -1,4 +1,4 @@
-import Logo from '../assets/img/logo-black.svg';
+import Logo from '../../assets/img/logo-black.svg';
 
 export const FooterBar = () => {
     return (
